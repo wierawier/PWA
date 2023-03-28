@@ -45,7 +45,7 @@ header {
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
-header a{
+header a {
     color: white;
     border-color: darkblue;
     text-decoration: none;
