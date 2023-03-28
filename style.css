@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.flex_column_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    background-image: url('img/man.jpg');
+    background-position: center;
+}
+
+.single_place {
+    margin: 15px;
+}
+
+.single_place p {
+    line-height: 1.5;
+}
+
+.single_place img{
+    width: 100%;
+}
+
+footer {
+    background-color: darkblue;
+    color: white;
+}
+
+header {
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+header a{
+    color: white;
+    border-color: darkblue;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    .all_places {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .single_place {
+        flex-basis: 46%;
+    }
+
+    .flex_column_container {
+        justify-content: flex-start;
+    }
+}
+
+@media  screen and (min-width:1200px) {
+    .single_place {
+        flex-basis: 23%;
+    }
+}
