@@ -6,7 +6,7 @@
     "display": "fullscreen",
     "orientation": "portrait",
     "scope": "/",
-    "start_url": "/wierawier.github.io/PWA/",
+    "start_url": "/PWA/",
     "icons": [
         {
             "src": "./img/icon.png",
